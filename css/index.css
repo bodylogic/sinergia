@@ -1,0 +1,565 @@
+@font-face {
+  font-family: "DIN Pro";
+  src: url("../fonts/DINPro_0.otf");
+}
+
+@font-face {
+  font-family: "Rezpector";
+  src: url("../fonts/Rezpector.otf");
+}
+
+
+.hero-slider .slides li:before {
+    background-color: #333333;
+    opacity: 0.4;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    top: 0px;
+}
+
+/*********************/
+
+
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+}
+
+.item p{
+    text-align: center;
+}
+
+.ui-accordion .ui-accordion-icons {
+    display: none;
+}	
+
+table {
+    font-family: arial, sans-serif;
+	border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+.ultimos{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.speakers{
+    width: 100%;
+    height: 98%;
+    
+}
+
+.speakers h2{
+    justify-content: center;
+    font-family: "din pro";
+    font-size: 500%;
+    color: #FFB416C4;
+    width: auto;
+    height: auto;
+    
+}
+
+h2.last{
+    font-family: "Rezpector";
+    margin-left: 26px
+}
+.speakers p{
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+    font-family: "din pro";
+    align-content: center;
+    flex-grow: 1;
+    line-height: 1em;
+   
+
+}
+
+.galeria{
+    width: 100%;
+    padding: 30px 0 87px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+.spk{
+    width: 400px;
+    height: 380px;
+    margin: 30px;
+    flex-shrink: 1;
+}
+
+
+
+
+.pie1 {
+    color:#fff;
+    background-color: rgba(255, 127, 47, .8);
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    position: relative;
+    top: 70%;
+    clip-path: polygon(0 27%, 100% 5%, 100% 100%, 0% 100%);
+    display: grid;
+    padding: 28px 0;
+
+}
+
+.pie2 {
+    color:#fff;
+	background-color: rgba(255, 127, 47, .8);
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    position: relative;
+    top: 70%;
+    clip-path: polygon(0 5%, 100% 26%, 100% 100%, 0% 100%);
+    display: grid;
+    padding: 28px 0;
+
+}
+
+
+
+
+.omar{
+    background-image: url(../img/omar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.emilio{
+    background-image: url(../img/emilio.jpg);
+    background-size: cover;
+}
+
+.regil{
+    background-image: url(../img/regil.jpg);
+    background-size: cover;
+}
+
+.daniel{
+    background-image: url(../img/daniel.jpg);
+    background-size: cover;
+}
+.brenda{
+    background-image: url(../img/brenda.jpg);
+    background-size: cover;
+}
+.who{
+    background-image: url(../img/nuevo.jpg);
+    background-size: cover;
+}
+
+
+div#up{
+	position: fixed;
+    z-index: 10;
+    right: 0;
+    bottom: 0;
+    margin: 3em;
+}
+section#etapas p#te-1{
+    
+    text-align: left;
+    font: Bold 117px/58px DIN Pro;
+    letter-spacing: 0;
+    color: #FFB416;
+    opacity: 1;
+}
+section#etapas p#te-2{
+	margin-left: 72px;
+    text-align: left;
+    font: 108px Rezpector;
+    letter-spacing: 0;
+    color: #FF7F2FE6;
+    opacity: 0.75;
+}
+.etapa{
+	text-align: center;
+	font: Bold 29px/1em DIN Pro;
+	letter-spacing: 1.89px;
+	text-transform: uppercase;
+	margin-top: 0.7em;
+}
+
+
+ .etapa-p{
+	text-align: center;
+	font: Bold 17px/3em DIN Pro;
+	letter-spacing: 1.75px;
+	color: #757575;
+	text-transform: uppercase;
+	margin-top: 1.9em;
+ }
+
+select#paises.form-control {
+    background-color: white;
+}
+
+.bton{
+	
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 13px;
+	font: Bold 23px/29px DIN Pro;
+	color: white;
+}
+
+.bton a{
+    color: white;
+}
+
+.bton a:hover{
+    color: #ff7f2f;
+}
+.rosa{
+	background-color: #FF0072;
+	width: 100%;
+}
+
+
+.rosa2{
+	/*background-color: #B5008F;*/
+	width: 100%;
+}
+
+
+.azul{
+	/* background-color: #00ACDA; */
+	width: 100%;
+}
+
+.bton rosa:hover{
+  background-color: #ff7f2f;  
+    
+}
+
+.bton rosa:visited{
+  background-color: #fff;  
+    
+}
+
+.mb{
+margin-bottom: 34px !important;
+}
+/*******************/
+section#hoteles img{
+    width: 28em;
+    padding: 2em;
+    margin-top: 2em;
+    
+}
+
+div#texto_hotel{
+    opacity: 1;
+    margin-top: 70px;
+}
+
+div#texto_hotel p#th-1{
+    
+    text-align: left;
+    font: Bold 108px/108px DIN Pro;
+    letter-spacing: 0;
+    color: #FFB416;
+    opacity: 0.75;
+}
+div#texto_hotel p#th-2{
+    
+    text-align: right;
+    font: 108px Rezpector;
+    letter-spacing: 0;
+    color: #FF7F2FE6;
+    opacity: 1;
+}
+
+
+section#millas div.row{
+    position: relative
+        
+}
+div#backgoup-millas{
+    z-index: 1;
+    height: 500px;
+    background: transparent url(../img/backgoup-millas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 25px;
+    left: 0%;
+    right: 0%;
+}
+
+
+div#trapecio-millas{
+    z-index: 2;
+    width:75%;
+    height:550px;
+    background: transparent linear-gradient(to left, #FF7F2F 0%, #FFB416 100%) 10% 10% no-repeat padding-box;
+    top:0;
+    left:0;
+    content:'';
+    position:relative;
+	clip-path: polygon(0% 0%, 100% 0%, 60% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 60% 100%, 0% 100%);
+}
+
+
+div#parrafo-millas{
+	position: absolute;
+    z-index: 3;
+    width: 75%;
+    top: 40px;
+}
+
+div#parrafo-millas p{
+	text-align: left;
+	color: #FFFFFF;
+}
+div#parrafo-millas p.pm1{
+	text-align: left;
+	font: bold 85px/89px Rezpector;
+	letter-spacing: 9.75px;
+}
+
+div#parrafo-millas p.pm2{
+	text-align: left;
+	font: bold 41px/78px DIN Pro;
+	letter-spacing: -0.6px;
+}
+div#parrafo-millas p.pm3{
+	text-align: center;
+	font: Condensed 80px/1px DIN;
+	letter-spacing: 0;
+	display: inline-block;
+}
+div#parrafo-millas p.pm4{
+	text-align: left;
+	font: Bold 51px/86px DIN Pro;
+	letter-spacing: -0.73px;
+	display: inline-block;
+}
+div#parrafo-millas p.pm5{
+	text-align: left;
+	font: bold 47px/68px DIN Pro;
+	letter-spacing: -2.48px;
+}
+div#parrafo-millas p.pm6{
+	text-align: left;
+font: bold 62px/68px Rezpector;
+letter-spacing: 6.2px;
+}
+
+div#parrafo-millas button.base{
+	color: #fff;
+    border-color: #fff;
+	background: transparent;
+}
+div#parrafo-millas button.base:hover{
+	color: #FF7F2F;
+    border-color: #FF7F2F;
+	background: white;
+}
+div#parrafo-millas button.base:visited{
+    color: #fff;
+    border-color: #fff;
+	background: transparent;
+}
+
+
+/************************/
+
+
+#agenda {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#agenda h2{
+    font-family: "Rezpector";
+    font-size: 800%;
+    color: #FFB416;
+    margin-bottom: .2em;
+}
+
+
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+
+}
+
+.img {
+    width: 316px;
+    height: 178px;
+    align-content: 1;
+    align-items: stretch;
+    
+}
+
+section#agenda .texto{
+    word-wrap: break-word;
+    width: 400px;
+    margin-left: 5%;
+}
+
+#agenda h2{
+        font-size: 600%;
+
+}
+
+
+/************************/
+section#preguntas{
+	text-align:start;
+    
+}
+
+section#preguntas div p.pregunta b{
+	border-radius: 30px;
+    background-color: #FF7F2F;
+    width: 30px;
+	height: 30px;
+    vertical-align: middle;
+    text-align: center;
+	color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#preguntas div p.titulo{
+	text-align: center;
+	font: Bold 84px/42px DIN Pro;
+	letter-spacing: 0;
+	color: grey;
+    margin-bottom: 71px;
+}
+
+section#preguntas div p.pregunta{
+	font: Bold 20px/60px DIN Pro;
+    text-align: left;
+	letter-spacing: 0;
+	color: #FF7F2F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: unset;
+
+    
+}
+section#preguntas div p.respuesta{
+	font: 20px/37px DIN Pro;
+    text-align: left;
+	letter-spacing: 0;
+	color: #606060;
+	opacity: 1;
+}
+
+.ftr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.footer img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.redes a{
+    flex-shrink: 1;
+    font-size: 100%;
+    text-align: center;
+    color: white;
+    margin: 0 10px;
+    
+}
+.footer div{
+    flex-shrink: 1;
+    font-size: 118%;
+    text-align: center;
+    color: white;
+    margin: 5px 10px 0 4px;
+}
+.redes a:hover{
+    font-size: 120%;
+    color: #fff;
+}
+
+.redes a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*************/

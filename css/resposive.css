@@ -1,0 +1,450 @@
+@media only screen and (min-width:300px) and (max-width:399px){
+
+    .video-wrapper {
+        display: block;
+    }
+
+    .video-wrapper video#movil{
+        display: block;
+    }
+    .video-wrapper video#desktop{
+        display: none;
+    }
+    /********************/
+    section#etapas p#te-1 {
+        font: Bold 5em/1em DIN Pro;
+        text-align: center;
+    }
+    section#etapas p#te-2 {
+        margin-left: 0;
+        text-align: center;
+        font: 3.5em Rezpector;
+        width: 5em;
+
+    }
+
+    .etapa, .etapa-p {
+    }
+
+    div#backgoup-millas {
+        position: absolute;
+        top: 30px;
+        left: -254px;
+        right: 0;
+        height: 400px;
+    }
+    div#trapecio-millas {
+
+        width: 87%;
+    }
+
+    div#trapecio-millas::before {
+        height: 450px;
+    }
+
+    div#parrafo-millas {
+        top: 62px;
+        left: 15px;
+    }
+
+    div#parrafo-millas p.pm1 {
+        font: bold 3em/1em Rezpector;
+    }
+
+    div#parrafo-millas p.pm2 {
+        font: bold 1.6em/1em DIN Pro;
+    }
+
+    div#parrafo-millas p.pm3 {
+        font: Condensed 3em/1em DIN;
+    }
+    div#parrafo-millas p.pm4 {
+        font: Bold 2em/1em DIN Pro;
+    }
+
+    div#parrafo-millas p.pm5 {
+        font: bold 1.5em/1em DIN Pro;
+        letter-spacing: 0;
+    }
+
+    div#parrafo-millas p.pm6 {
+        font: bold 2.3em/1em Rezpector;
+    }
+
+    div#parrafo-millas button.base{
+        font: Bold 1.2em/29px DIN Pro;
+    }
+
+    div#texto_hotel p#th-1 {
+        font: Bold 62px/1em DIN Pro;
+        text-align: center;
+    }
+    div#texto_hotel p#th-2 {
+        font: 4em Rezpector;
+        text-align: center;
+    }
+
+    section#preguntas div p.titulo {
+        font: Bold 3.2em/1em DIN Pro;
+        line-height: 1;
+    }
+
+    section#preguntas div p.pregunta {
+        font: Bold 1.2em/1em DIN Pro;
+        margin-left: 11px;
+
+    }
+    section#preguntas div p.respuesta {
+        font: Bold 1em/1em DIN Pro;
+        margin-left: 4em;
+        width: 75%;
+
+    }
+    
+      section#agenda .texto{
+        margin-left: -7px;
+        width: 100%;
+    }
+    /*********************/
+}
+
+@media only screen and  (min-width: 400px ) and (max-width: 499px){
+    .video-wrapper {
+        display: block;
+    }
+
+    .video-wrapper video#movil{
+        display: block;
+    }
+    .video-wrapper video#desktop{
+        display: none;
+    }
+    /********************/
+    section#etapas p#te-1 {
+        font: Bold 6em/1em DIN Pro;
+        text-align: center;
+    }
+    section#etapas p#te-2 {
+        margin-left: 0;
+        text-align: center;
+        font: 4.5em Rezpector;
+    }
+
+    .etapa, .etapa-p {
+    }
+
+    div#backgoup-millas {
+        position: absolute;
+        top: 30px;
+        left: -254px;
+        right: 0;
+        height: 400px;
+    }
+    div#trapecio-millas {
+        width: 100%;
+        clip-path: polygon(0% 0%, 100% 0%, 54% 85%, -1% 85%);
+    }
+
+    div#trapecio-millas::before {
+        height: 450px;
+    }
+
+    div#parrafo-millas {
+        top: 62px;
+        left: 15px;
+    }
+
+    div#parrafo-millas p.pm1 {
+        font: bold 4em/1em Rezpector;
+    }
+
+    div#parrafo-millas p.pm2 {
+        font: bold 1.8em/1em DIN Pro;
+    }
+
+    div#parrafo-millas p.pm3 {
+        font: Condensed 3.5em/1em DIN;
+    }
+    div#parrafo-millas p.pm4 {
+        font: Bold 2.5em/1em DIN Pro;
+    }
+
+    div#parrafo-millas p.pm5 {
+        font: bold 2em/1em DIN Pro;
+        letter-spacing: 0;
+    }
+
+    div#parrafo-millas p.pm6 {
+        font: bold 3.3em/1em Rezpector;
+    }
+
+    div#parrafo-millas button.base{
+        font: Bold 1.5em/1em DIN Pro;
+    }
+    
+    
+
+    div#texto_hotel p#th-1 {
+        font: Bold 6em/1em DIN Pro;
+        margin-left: 0.2em;
+    }
+    div#texto_hotel p#th-2 {
+        font: 5em Rezpector;
+        text-align: center;
+    }
+
+    section#preguntas div p.titulo {
+        font: Bold 4.2em/1em DIN Pro;
+        line-height: 1;
+        margin-left: .2em;
+    }
+
+    section#preguntas div p.pregunta {
+        font: Bold 1.4em/1.2em DIN Pro;
+        margin-left: 1em;
+    }
+    
+    section#preguntas div p-pregunta b{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: left;
+        flex-grow: 5;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+
+    }
+    
+   
+    section#preguntas div p.respuesta {
+        font: Bold 1.5em/1.1em DIN Pro;
+        padding-left: 1em;
+        margin-top: -0.5em;
+
+    }
+    
+    .redes{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+    section#agenda .texto{
+        margin-left: 20px;
+        width: 100%;
+    }
+    /*********************/
+}
+
+@media only screen and  (min-width: 500px ) and (max-width: 699px){
+    .video-wrapper {
+        display: block;
+    }
+
+    .video-wrapper video#movil{
+        display: block;
+    }
+    .video-wrapper video#desktop{
+        display: none;
+    }
+    /********************/
+    section#etapas p#te-1 {
+        font: Bold 8em/1em DIN Pro;
+        text-align: center;
+    }
+    section#etapas p#te-2 {
+        margin-left: 0;
+        text-align: center;
+        font: 5.5em Rezpector;
+    }
+
+    .etapa, .etapa-p {
+    }
+
+    div#backgoup-millas {
+        position: absolute;
+        top: 30px;
+        left: -254px;
+        right: 0;
+        height: 400px;
+    }
+    div#trapecio-millas {
+        width: 100%;
+    }
+
+    div#trapecio-millas::before {
+        height: 450px;
+    }
+
+    div#parrafo-millas {
+        top: 65px;
+    }
+
+    div#parrafo-millas p.pm1 {
+        font: bold 4em/1em Rezpector;
+    }
+
+    div#parrafo-millas p.pm2 {
+        font: bold 1.8em/1em DIN Pro;
+    }
+
+    div#parrafo-millas p.pm3 {
+        font: Condensed 3.5em/1em DIN;
+    }
+    div#parrafo-millas p.pm4 {
+        font: Bold 2.5em/1em DIN Pro;
+    }
+
+    div#parrafo-millas p.pm5 {
+        font: bold 2em/1em DIN Pro;
+        letter-spacing: 0;
+    }
+
+    div#parrafo-millas p.pm6 {
+        font: bold 3.3em/1em Rezpector;
+    }
+
+    div#parrafo-millas button.base{
+        font: Bold 1.5em/1em DIN Pro;
+    }
+
+    div#texto_hotel p#th-1 {
+        font: Bold 6em/1em DIN Pro;
+    }
+    div#texto_hotel p#th-2 {
+        font: 5em Rezpector;
+        text-align: center;
+    }
+  section#agenda .texto{
+        margin-left: 34px;
+        width: 100%;
+    }
+    section#preguntas div p.titulo {
+        font: Bold 4.2em/1em DIN Pro;
+        line-height: 1;
+    }
+
+    section#preguntas div p.pregunta {
+        font: Bold 2.4em/1em DIN Pro;
+
+    }
+    section#preguntas div p.respuesta {
+        font: Bold 2em/1em DIN Pro;
+
+    }
+    
+        
+    .redes{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+    /*********************/
+}
+
+@media only screen and  (min-width: 700px ) and (max-width: 899px){
+    .video-wrapper {
+        display: block;
+    }
+
+    .video-wrapper video#movil{
+        display: block;
+    }
+    .video-wrapper video#desktop{
+        display: none;
+    }
+    /********************/
+    section#etapas p#te-1 {
+        font: Bold 5em/1em DIN Pro;
+        text-align: center;
+    }
+    section#etapas p#te-2 {
+        margin-left: 0;
+        text-align: center;
+        font: 3.5em Rezpector;
+    }
+
+    .etapa, .etapa-p {
+    }
+
+    div#backgoup-millas {
+        position: absolute;
+        top: 30px;
+        left: -254px;
+        right: 0;
+        height: 400px;
+    }
+    div#trapecio-millas {
+        
+        width: 100%;
+    }
+
+    div#trapecio-millas::before {
+        height: 450px;
+    }
+
+    div#parrafo-millas {
+        top: 100px;
+    }
+
+    div#parrafo-millas p.pm1 {
+        font: bold 3em/1em Rezpector;
+    }
+
+    div#parrafo-millas p.pm2 {
+        font: bold 1.6em/1em DIN Pro;
+    }
+
+    div#parrafo-millas p.pm3 {
+        font: Condensed 3em/1em DIN;
+    }
+    div#parrafo-millas p.pm4 {
+        font: Bold 2em/1em DIN Pro;
+    }
+
+    div#parrafo-millas p.pm5 {
+        font: bold 1.5em/1em DIN Pro;
+        letter-spacing: 0;
+    }
+
+    div#parrafo-millas p.pm6 {
+        font: bold 2.3em/1em Rezpector;
+    }
+
+    div#parrafo-millas button.base{
+        font: Bold 1.2em/29px DIN Pro;
+    }
+    
+    .imagenes{
+        visibility: hidden;
+    }
+
+
+    div#texto_hotel p#th-1 {
+        font: Bold 5em/1em DIN Pro;
+    }
+    div#texto_hotel p#th-2 {
+        font: 4em Rezpector;
+        text-align: center;
+    }
+      section#agenda .texto{
+        margin-left: 34px;
+        width: 100%;
+    }
+
+    section#preguntas div p.titulo {
+        font: Bold 3.2em/1em DIN Pro;
+        line-height: 1;
+    }
+
+    section#preguntas div p.pregunta {
+        font: Bold 1.4em/1em DIN Pro;
+
+    }
+    section#preguntas div p.respuesta {
+        font: Bold 1em/1em DIN Pro;
+
+    }
+    /*********************/
+}
